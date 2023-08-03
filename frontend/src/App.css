@@ -1,0 +1,39 @@
+.App {
+	text-align: center;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+input {
+	height: 24px;
+}
+
+.chatBox {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	padding: 10px;
+	width: 70vw;
+	height: 70vh;
+	border: 1px solid gray;
+	background-color: rgba(142, 137, 137, 0.418);
+}
+
+button {
+	height: 100%;
+	margin-inline: 20px;
+}
+
+.message {
+	width: max-content;
+	background: cornsilk;
+	padding: 5px;
+	text-align: left;
+}
+.message h5 {
+	margin: 0px;
+}
